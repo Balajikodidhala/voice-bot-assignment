@@ -1,59 +1,6 @@
-Voice Bot Assignment — Design and Objection Handling
-
-1. Project Overview
-
-This project contains two AI voice agents built using Sarvam AI Voice Agents.
-
-- Personal Loan Settlement Bot: Helps customers discuss payment difficulties and understand approved settlement options.
-- Car Insurance Renewal Bot: Helps customers with renewal questions, premium concerns, and next steps.
-
-2. Conversation Design
-
-Personal Loan Settlement Bot
-
-1. Greet the customer and explain the purpose of the call.
-2. Follow the approved identity-verification process.
-3. Understand the customer's payment concerns.
-4. Explain approved next steps without promising unauthorized discounts.
-5. Escalate disputes or complex cases when necessary.
-6. Summarize next steps and close politely.
-
-Car Insurance Renewal Bot
-
-1. Greet the customer and explain the renewal purpose.
-2. Understand the customer's renewal needs.
-3. Handle concerns about premiums, discounts, and alternative plans.
-4. Provide verified information about the policy.
-5. Offer human assistance if information is unavailable.
-6. Summarize the customer's decision and close politely.
-
-3. Objection Handling
-
-Customer objection| Expected response
-I cannot pay now.| Acknowledge the concern and explain approved next steps.
-I need a bigger settlement discount.| Explain that settlement terms require authorization.
-I dispute the loan amount.| Explain the approved dispute-resolution process.
-The insurance premium is too expensive.| Acknowledge the concern and discuss verified options.
-Can you offer a discount?| Explain that discounts must be confirmed.
-I want to compare other plans.| Respect the customer's decision without pressure.
-What is my renewal date?| Provide it only if verified policy information is available.
-I want to speak to a person.| Offer the approved human-support process.
-
-4. Safety and Reliability
-
-- Do not invent financial or insurance information.
-- Do not promise unapproved discounts or settlement terms.
-- Protect customer information.
-- Respect requests to end the conversation.
-- Escalate complex cases when necessary.
-
-5. Testing and Results
-
-Document the actual results of the test calls, including conversation quality, objection handling, and improvements required.
-
-- Personal Loan Settlement Bot: Add the recording reference and duration.
-- Car Insurance Renewal Bot: Add the recording reference and duration.
-
-6. Conclusion
-
-Both agents aim to provide polite, structured customer conversations. Their performance should be evaluated through test calls and improved based on observed results.
+Human-like feel. Both prompts are written for speech, not text. Short turns, one question at a time, numbers spoken in words and Hinglish by default make the bots sound like a person on a phone. Each bot has a named persona so the voice stays consistent. I also added behaviours for interruptions, silence and anger, because real calls are messy.
+Bot 1: firm but compliant. The tone comes from the structure, not from harsh words. Rohan names the pattern ("8 months, every time a different reason") and redirects every excuse to a date and an amount. The legal and credit-score points are stated factually as lawful steps and reporting practice, never as threats, which keeps it inside RBI fair practices. Compliance rules sit at the top and override tone: calling hours, identity check, no third-party disclosure, no abusive language, and a clean exit for disputes or distress.
+Bot 1: conversion logic. The waiver of ₹2,50,000 is presented as a limited-time exit with an expiry date. The negotiation ladder protects the amount: the bot never goes below ₹4,00,000 and instead flexes the timing (token plus balance), then escalates. Every call ends with a recap of amount, date and mode, plus an SMS, so the commitment is concrete.
+Bot 2: consultative, value-first. Priya explains the IDV drop before the customer raises it, which builds trust and removes the biggest surprise. She treats price comparison as a like-for-like check on IDV and add-ons, without attacking competitors. To maximise order value, she leads with a bundle (zero dep plus engine protect) and steps down only when the customer declines. Add-ons are matched to what the customer says about their driving, so the pitch feels like advice. Discounts are never invented beyond ₹15,000.
+Handling objections. Each objection follows the same pattern: acknowledge briefly, answer with a fact, and move to the next step. For Bot 1 the next step is a date. For Bot 2 it is a quote comparison or a payment link.
+Assumptions and variables. The task did not give add-on prices, offer expiry dates or grievance contacts, so these are variables to fill in. The bots are told never to invent numbers, and to confirm and call back if unsure. Test calls were planned against tough customers: a repeat-excuse payer for Bot 1, and a portal-price comparer who refuses add-ons for Bot 2.
