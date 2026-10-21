@@ -1,4 +1,4 @@
-CreditNirvana Voice Bot Assignment
+#**CreditNirvana Voice Bot Assignment**
 
 Two voice bots built on Sarvam AI for the Prompt Engineer Intern (Voice AI & Agentic AI) assignment at CreditNirvana.
 | Bot | Persona | Goal |
@@ -6,7 +6,7 @@ Two voice bots built on Sarvam AI for the Prompt Engineer Intern (Voice AI & Age
 | **Bot 1: Personal Loan Settlement** | Rohan | Close on full repayment or a settlement with a commitment date |
 | **Bot 2: Car Insurance Renewal** | Priya | Renew the policy at the highest achievable value |
 
-Bot 1: Personal Loan Settlement ("Rohan")
+**Bot 1: Personal Loan Settlement ("Rohan")**
 Scenario
 
 
@@ -59,7 +59,7 @@ Test prices used (assumed, not real quotes)
 
 
 
-Repository structure
+**Repository structure**
 .
 ├── README.md
 ├── prompts/
@@ -74,7 +74,7 @@ Repository structure
     ├── bot1_customer_lines.md
     └── bot2_customer_lines.md
     
-Setup on Sarvam AI
+**Setup on Sarvam AI**
 
 Create a voice agent in your Sarvam account for each bot.
 Paste the matching file from prompts/ as the system prompt.
@@ -84,50 +84,7 @@ Attach one test phone number to each bot and place a call.
 
 
 
-
-
-Test prices used (assumed, not real quotes)
-
-
-
-| Add-on | Price |
-| :--- | :--- |
-| Zero depreciation | ₹3,000 |
-| Engine protect | ₹1,200 |
-| Roadside assistance | ₹600 |
-| Consumables cover | ₹800 |
-| Return to invoice | ₹2,000 |
-| NCB protection | ₹700 |
-
-
-
-
-
-Repository structure
-
-.
-├── README.md
-├── prompts/
-│   ├── bot1_loan_settlement.txt
-│   └── bot2_car_insurance.txt
-├── docs/
-│   └── system_prompts_and_design_note.pdf
-├── recordings/
-│   ├── bot1_test_call.mp3
-│   └── bot2_test_call.mp3
-└── test_scripts/
-    ├── bot1_customer_lines.md
-    └── bot2_customer_lines.md
-    
-Setup on Sarvam AI
-Create a voice agent in your Sarvam account for each bot.
-Paste the matching file from prompts/ as the system prompt.
-Set the default language to English with Hindi and Hinglish enabled. Bot 1's sample lines are in Hinglish.
-Fill in the variables listed below.
-Attach one test phone number to each bot and place a call.
-
-
-Variables to fill
+**Variables to fill**
 
 | Variable | Used In | Example |
 | :--- | :--- | :--- |
@@ -144,17 +101,16 @@ Variables to fill
 
 
 
+**Design choices**
 
-Design choices
-
-*Written for speech. Short turns, one question at a time, numbers spoken in words, and handling for interruptions, silence and anger.
-*Compliance sits above tone. In Bot 1 the firmness comes from structure (naming the pattern, redirecting to a date), not from harsh words.
-*Objection pattern. Acknowledge briefly, answer with a fact, move to the next step.
-*The amount is protected. Bot 1 never goes below ₹4,00,000 and flexes timing instead. Bot 2 never invents a discount beyond ₹15,000 and trims add-ons rather than the base discount.
-*No invented facts. Both bots are told to confirm and call back if they do not know something.
+* Written for speech: short turns, one question at a time, numbers spoken in words, and handling for interruptions, silence, and anger.
+* Compliance sits above tone: in Bot 1, firmness comes from structure (naming the pattern, redirecting to a date) rather than harsh words.
+* Objection pattern: acknowledge briefly, answer with a fact, and move to the next step.
+* The amount is protected: Bot 1 never goes below ₹4,00,000 and flexes timing instead, while Bot 2 never invents a discount beyond ₹15,000 and trims add-ons rather than the base discount.
+* No invented facts: both bots are instructed to confirm and call back if they do not know something.
 
 
-Test calls
+**Test calls**
 
 | Call | Bot | Scenario |
 | :--- | :--- | :--- |
@@ -168,22 +124,22 @@ Test calls
 Test numbers for evaluators
 
 
-Bot 1: +91 7975068626
-Bot 2: +91 9008449851
+* Bot 1: +91 7975068626
+* Bot 2: +91 9008449851
 
+**Assumptions**
 
-Assumptions
 The assignment did not give add-on prices, the offer expiry date or the grievance contact, so these are variables.
 Legal and credit-score statements are general and factual. They are not legal advice.
 
 
 
+# **Author & Submission Details**
 
-
-
-Author
 Balaji Kodidhala
-Email: balajik12072003@gmail.com
-LinkedIn: https://www.linkedin.com/in/balaji-kodidhala
-GitHub: https://github.com/Balajikodidhala
+
+* Email: balajik12072003@gmail.com
+* LinkedIn: [https://www.linkedin.com/in/balaji-kodidhala](https://www.linkedin.com/in/balaji-kodidhala)
+* GitHub: [https://github.com/Balajikodidhala](https://github.com/Balajikodidhala)
+  
 Submission deadline: Tuesday, 27 October 2026, 11:59 PM IST
