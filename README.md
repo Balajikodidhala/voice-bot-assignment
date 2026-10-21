@@ -6,7 +6,7 @@ Two voice bots built on Sarvam AI for the Prompt Engineer Intern (Voice AI & Age
 | **Bot 1: Personal Loan Settlement** | Rohan | Close on full repayment or a settlement with a commitment date |
 | **Bot 2: Car Insurance Renewal** | Priya | Renew the policy at the highest achievable value |
 
-# **Bot 1: Personal Loan Settlement ("Rohan")**
+# **Bot 1: Personal Loan Settlement - Rohan**
 Scenario
 
 
@@ -31,7 +31,7 @@ Compliance (RBI fair practices)
 * **Legal Representation:** Legal consequences must be communicated solely as standard lawful steps and never used as threats.
 * **Dispute Handling:** Provides a clean and professional exit strategy for customer disputes, distress, or mentions of lawyers and ombudsmen.
 
-# **Bot 2: Car Insurance Renewal ("Priya")**
+# **Bot 2: Car Insurance Renewal -Priya**
 
 Scenario
 
