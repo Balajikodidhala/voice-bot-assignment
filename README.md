@@ -60,6 +60,7 @@ Test prices used (assumed, not real quotes)
 
 
 # **Repository structure**
+
 .
 ├── README.md
 ├── prompts/
@@ -101,7 +102,7 @@ Attach one test phone number to each bot and place a call.
 
 
 
-**Design choices**
+# **Design choices**
 
 * Written for speech: short turns, one question at a time, numbers spoken in words, and handling for interruptions, silence, and anger.
 * Compliance sits above tone: in Bot 1, firmness comes from structure (naming the pattern, redirecting to a date) rather than harsh words.
@@ -110,7 +111,7 @@ Attach one test phone number to each bot and place a call.
 * No invented facts: both bots are instructed to confirm and call back if they do not know something.
 
 
-**Test calls**
+# **Test calls**
 
 | Call | Bot | Scenario |
 | :--- | :--- | :--- |
@@ -121,13 +122,13 @@ Attach one test phone number to each bot and place a call.
 
 
 
-Test numbers for evaluators
+# **Test numbers for evaluators**
 
 
 * Bot 1: +91 7975068626
 * Bot 2: +91 9008449851
 
-**Assumptions**
+#**Assumptions**
 
 The assignment did not give add-on prices, the offer expiry date or the grievance contact, so these are variables.
 Legal and credit-score statements are general and factual. They are not legal advice.
