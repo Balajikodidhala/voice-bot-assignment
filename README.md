@@ -149,19 +149,14 @@ Test prices used (assumed, not real quotes)
 
 
 
-Add-on                                   Price
-
-Zero depreciation                        ₹3,000
-
-Engine protect                           ₹1,200
-
-Roadside assistance                      ₹600
-
-Consumables cover                        ₹800
-
-Return to invoice                        ₹2,000
-
-NCB protection                            ₹700
+| Add-on | Price |
+| :--- | :--- |
+| Zero depreciation | ₹3,000 |
+| Engine protect | ₹1,200 |
+| Roadside assistance | ₹600 |
+| Consumables cover | ₹800 |
+| Return to invoice | ₹2,000 |
+| NCB protection | ₹700 |
 
 
 
@@ -169,17 +164,16 @@ NCB protection                            ₹700
 
 Repository structure
 
-
 .
 ├── README.md
 ├── prompts/
-│ ├── bot1_loan_settlement.txt
-│ └── bot2_car_insurance.txt
+│   ├── bot1_loan_settlement.txt
+│   └── bot2_car_insurance.txt
 ├── docs/
-│ └── system_prompts_and_design_note.pdf
+│   └── system_prompts_and_design_note.pdf
 ├── recordings/
-│ ├── bot1_test_call.mp3
-│ └── bot2_test_call.mp3
+│   ├── bot1_test_call.mp3
+│   └── bot2_test_call.mp3
 └── test_scripts/
     ├── bot1_customer_lines.md
     └── bot2_customer_lines.md
