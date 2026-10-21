@@ -6,15 +6,14 @@ Two voice bots built on Sarvam AI for the Prompt Engineer Intern (Voice AI & Age
 | **Bot 1: Personal Loan Settlement** | Rohan | Close on full repayment or a settlement with a commitment date |
 | **Bot 2: Car Insurance Renewal** | Priya | Renew the policy at the highest achievable value |
 
-Bot	Persona	Goal
-Bot 1: Personal Loan Settlement	Rohan	Close on full repayment or a settlement with a commitment date
-Bot 2: Car Insurance Renewal	Priya	Renew the policy at the highest achievable value
 Bot 1: Personal Loan Settlement ("Rohan")
 Scenario
 
-Personal loan of ₹5,00,000, unpaid for 8 months. The customer gives a new excuse on every call.
-Outstanding: Principal ₹4,00,000 + Interest ₹2,00,000 + Other charges ₹50,000 = ₹6,50,000
-Settlement offer: ₹4,00,000 (waives ₹2,50,000)
+
+* **Loan Status:** A personal loan of ₹5,00,000 has remained unpaid for 8 months, with the customer providing a new excuse on every call.
+* **Outstanding Dues:** The total outstanding amount of ₹6,50,000 comprises ₹4,00,000 in principal, ₹2,00,000 in interest, and ₹50,000 in other charges.
+* **Settlement Offer:** A special settlement offer is available at ₹4,00,000, which effectively waives ₹2,50,000 of the total dues.
+
 Tone: firm, direct and assertive. Rohan calls out repeated excuses, explains the credit score and legal impact, creates urgency around the offer, negotiates, and closes on a payment date.
 
 Negotiation ladder
