@@ -75,3 +75,6 @@ Test-call recordings are maintained separately and will be provided through the 
 - Prompt engineering
 - Conversational design
 - Objection handling and test-scenario evaluation
+
+<img width="1531" height="733" alt="image (2)" src="https://github.com/user-attachments/assets/bea5dc7b-75a9-4322-bfd8-ebd783726002" />
+<img width="1534" height="710" alt="image (1)" src="https://github.com/user-attachments/assets/8daa49b6-6266-4b1b-8d7f-f55668bedb5b" />
