@@ -1,14 +1,10 @@
 CreditNirvana Voice Bot Assignment
 
 Two voice bots built on Sarvam AI for the Prompt Engineer Intern (Voice AI & Agentic AI) assignment at CreditNirvana.
-Bot
-Persona
-Goal
-Bot 1: Personal Loan Settlement
-Rohan
-Close on full repayment or a settlement with a commitment date
-Bot 2: Car Insurance RenewalCreditNirvana Voice Bot Assignment
-Two voice bots built on Sarvam AI for the Prompt Engineer Intern (Voice AI & Agentic AI) assignment at CreditNirvana.
+| Bot | Persona | Goal |
+| :--- | :--- | :--- |
+| **Bot 1: Personal Loan Settlement** | Rohan | Close on full repayment or a settlement with a commitment date |
+| **Bot 2: Car Insurance Renewal** | Priya | Renew the policy at the highest achievable value |
 
 Bot	Persona	Goal
 Bot 1: Personal Loan Settlement	Rohan	Close on full repayment or a settlement with a commitment date
