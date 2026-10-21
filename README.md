@@ -1,4 +1,4 @@
-#**CreditNirvana Voice Bot Assignment**
+# **CreditNirvana Voice Bot Assignment**
 
 Two voice bots built on Sarvam AI for the Prompt Engineer Intern (Voice AI & Agentic AI) assignment at CreditNirvana.
 | Bot | Persona | Goal |
@@ -6,7 +6,7 @@ Two voice bots built on Sarvam AI for the Prompt Engineer Intern (Voice AI & Age
 | **Bot 1: Personal Loan Settlement** | Rohan | Close on full repayment or a settlement with a commitment date |
 | **Bot 2: Car Insurance Renewal** | Priya | Renew the policy at the highest achievable value |
 
-**Bot 1: Personal Loan Settlement ("Rohan")**
+# **Bot 1: Personal Loan Settlement ("Rohan")**
 Scenario
 
 
@@ -59,7 +59,7 @@ Test prices used (assumed, not real quotes)
 
 
 
-**Repository structure**
+# **Repository structure**
 .
 ├── README.md
 ├── prompts/
@@ -74,7 +74,7 @@ Test prices used (assumed, not real quotes)
     ├── bot1_customer_lines.md
     └── bot2_customer_lines.md
     
-**Setup on Sarvam AI**
+# **Setup on Sarvam AI**
 
 Create a voice agent in your Sarvam account for each bot.
 Paste the matching file from prompts/ as the system prompt.
@@ -84,7 +84,7 @@ Attach one test phone number to each bot and place a call.
 
 
 
-**Variables to fill**
+# **Variables to fill**
 
 | Variable | Used In | Example |
 | :--- | :--- | :--- |
