@@ -194,31 +194,6 @@ Attach one test phone number to each bot and place a call.
 
 Variables to fill
 
-Variable                                                 Used in                                                  Example
-
-
-{{lender_name}}                                          Bot 1                                             Your demo lender name
-
-{{customer_name}}                                        Both                                            Name of the test caller
-
-{{offer_valid_till}}                                   Bot 1                                             A date a few days ahead
-
-{{grievance_email}}                                  Bot 1                                          A support email
-                                                                                                
-{{insurer_or_broker_name}}                         Bot 2                                        Your demo insurer name
-
-{{vehicle_number}}                                     Bot 2                                   A sample registration number
-
-{{expiry_date}}                                           Bot 2                                 The policy expiry date
-
-{{zero_dep_price}} ... {{ncb_protect_price}}                Bot 2                               See the price table above
-
-{{garage_count}}, {{ncb_percent}}                            Bot 2                               Sample values
-
-
-
-
-
 | Variable | Used In | Example |
 | :--- | :--- | :--- |
 | `{{lender_name}}` | Bot 1 | Your demo lender name |
@@ -246,16 +221,12 @@ Design choices
 
 Test calls
 
-Call                            Bot                                              Scenario
-
-Bot 1
-A                             Bot 1                           Tough customer: a new excuse every time, no commitment
-
-B                             Bot 1                           Negotiation that ends with a UPI payment date
-
-A                             Bot 2                         Tough customer: portal price comparison, refuses add-ons
-
-B                             Bot 2                         IDV explanation, competitor comparison, add-on sale and booking
+| Call | Bot | Scenario |
+| :--- | :--- | :--- |
+| **A** | Bot 1 | Tough customer: a new excuse every time, no commitment |
+| **B** | Bot 1 | Negotiation that ends with a UPI payment date |
+| **A** | Bot 2 | Tough customer: portal price comparison, refuses add-ons |
+| **B** | Bot 2 | IDV explanation, competitor comparison, add-on sale and booking |
 
 
 
